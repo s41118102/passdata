@@ -15,11 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from passdataapp.views import dice,dice2,dice3,show,filter,pass
+from passdataapp.views import dice,dice2,dice3,show,filter,myid
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-	path('',pass),
+	path('',myid),
 	path('dice/', dice),
 	path('dice2/', dice2),
 	path('dice3/', dice3),
