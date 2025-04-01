@@ -2,7 +2,7 @@ from django.shortcuts import render
 import random  # 加入 random 套件
 from django.http import HttpResponse
 
-def pass(request):
+def myid(request):
    return HttpResponse("41118102,黃彥凱")
 def dice(request):
    no=random.randint(1,6)   # 1~6
